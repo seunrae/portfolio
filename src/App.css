@@ -1,0 +1,112 @@
+.contain{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    transition: 1s;
+}
+.content{
+   width: 600px;
+    height: 600px;
+    background-color: #E8E8E8;
+    font-size: medium;
+
+}
+.img-show{
+    width: 200px;
+    height: 200px;
+    background-image: url("seun.jpg");
+    background-size: 100%;
+    border-radius: 50%;
+    margin:auto;
+}
+.img-div{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg,blue, #7fffd4);
+}
+.anchor{
+    color: black;
+}
+.click{
+    background: none;
+    border-color: #7fffd4;
+    border-radius: 5px;
+}
+.header{
+    color: #7fffd4;
+    font-family: ultra;
+}
+.nav-div{
+    font-size: large;
+}
+@font-face {
+    font-family: ultra;
+    src: url("/public/Ultra-Regular.ttf");
+}
+.ultra{
+    font-family: ultra;
+}
+
+@font-face {
+    font-family: ptSerifBold;
+    src: url("/public/PTSerif-Bold.ttf");
+}
+.ptSerifBold{
+    font-family: ptSerifBold;
+}
+
+@font-face {
+    font-family: ptSerif;
+    src: url("/public/PTSerif-Regular.ttf");
+}
+.ptSerif{
+    font-family: ptSerif;
+}
+.name{
+    color: #E8E8E8;
+}
+@media (max-width: 1000px) {
+    .contain{
+        width: 800px;
+        height: 600px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 800px) {
+    .contain{
+        width: 600px;
+        height: 600px;
+        transition: 1s;
+    }
+}
+@media (max-width: 600px) {
+    .contain{
+        width: 400px;
+        height: 600px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 400px) {
+    .contain{
+        width: 200px;
+        height: 600px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 300px) {
+    .contain{
+        width: 200px;
+        height: 600px;
+        transition: 1s;
+    }
+    .name{
+        margin-left: auto;
+    }
+}
+
