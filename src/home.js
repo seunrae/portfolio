@@ -7,7 +7,7 @@ function Home() {
         <div className="contain shadow ">
             <div className="img-div">
                 <div>
-                    <div className="img-show mx-4"></div>
+                    <div className="img-show "></div>
                     <div className="my-5 mx-3">
                         <h2 className="ptSerif name">Ademilua Oluseun Gabriel</h2>
                     </div>
